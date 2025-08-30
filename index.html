@@ -16,44 +16,36 @@ Yajun Yang's Home Page
   h2 {
     color: #000000;
     border-bottom: none;
-    padding-bottom: 15px;
     margin-top: 30px;
     position: relative;
   }
-
-  h2:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 60px;
-    height: 3px;
-    background: #3498db;
-  }
   
   h3 {
-    color: #34495e;
+    color: #000000;
     margin: 15px 0;
   }
   
   hr {
-    display: none;
+    border: 0;
+    height: 1px;
+    background: #cccccc;
+    margin: 10px 0;
   }
   
   .navbar {
     background-color: #f8f9fa;
-    padding: 15px;
+    padding: 10px;
     border-radius: 5px;
-    margin: 20px 0;
+    margin: 15px 0;
     text-align: center;
   }
   
   .navbar a {
-    color: #2c3e50;
+    color: #0000FF;
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 5px 10px;
     transition: color 0.3s;
-    font-size: 19px;
+    font-size: 16px;
   }
   
   .navbar a:hover {
@@ -69,46 +61,34 @@ Yajun Yang's Home Page
   }
   
   a {
-    color: #3498db;
+    color: #0000ff;
     text-decoration: none;
     transition: all 0.3s;
   }
   
   a:hover {
-    color: #2980b9;
+    color: #0000FF;
     text-decoration: underline;
   }
   
   .profile-info {
     margin-left: 30px;
-    font-size: 18px;
+    font-size: 16px;
   }
   
-  button {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    padding: 8px 15px;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin: 0 5px;
-  }
-  
-  button:hover {
-    background-color: #2980b9;
-  }
+
 
   .pub-list {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 19px;
-    list-style-position: inside;
+    font-size: 18px;
+    list-style-position: outside;
+    padding-left: 25px;
   }
 
   .pub-list li {
     margin-bottom: 5px;
     line-height: 1.6;
-    padding: 5px;
+    padding: 5px 0;
   }
   
   .pub-list a {
@@ -117,7 +97,7 @@ Yajun Yang's Home Page
 
   .pub-title {
     font-weight: bold;
-    color: #2c3e50;
+    color: #000000;
   }
 
   .main-content {
@@ -133,12 +113,13 @@ Yajun Yang's Home Page
     display: none;
   }
 </style>
-<BODY>
-<font face="Times New Roman" style="font-size: 18px">
-<div class="main-content">
-<div class="lang-switch">
+<BODY style="BACKGROUND-COLOR: rgb(255,255,255); padding-left: 100px; padding-right: 100px"> 
+<font face="Times New Roman; font-size: 18px">
+<div style="text-align: right">
 	<button onclick="btn2()">中文/Chinese</button>
 	<button onclick="btn1()">英文/English</button>
+
+<font face="楷体; font-size: 18px">
 </div>
 <div id="english">
  <TABLE border=0>
@@ -151,7 +132,7 @@ Yajun Yang's Home Page
     <TD><BR></TD>
     <TD>
       <div class="profile-info">
-        <H2 class="no-line"><span style="font-family: 楷体; font-size: 32px">杨雅君</span><span style="font-family: 'Times New Roman'; font-size: 28px">（Yajun Yang）</span></H2>
+        <H2 class="no-line"><span style="font-family: 楷体; font-size: 28px">杨雅君</span><span style="font-family: 'Times New Roman'; font-size: 26px">（Yajun Yang）</span></H2>
         <H3>副教授，博士生导师</H3>
         <div style="margin: 15px 0">天津大学，智能与计算学部，人工智能学院</div>
         <div style="margin: 10px 0"><b>地址</b>: 天津市津南区雅观路135号天津大学北洋园校区55楼B505</div>
@@ -490,7 +471,7 @@ name="_Teaching"></a>课程</h2>
     <TD><BR></TD>
     <TD>
       <div class="profile-info">
-        <H2 class="no-line"><font face="Times New Roman" style="font-size: 28px">Yajun Yang</font><font face="楷体" style="font-size: 32px">（杨雅君）</font></H2>
+        <H2 class="no-line"><font face="Times New Roman" style="font-size: 26px">Yajun Yang</font><font face="楷体" style="font-size: 28px">（杨雅君）</font></H2>
         <H3>Associate Professor, Doctoral Advisor</H3>
         <div style="margin: 15px 0">College of Intelligence and Computing<br>Tianjin University (TJU), Tianjin, China</div>
         <div style="margin: 10px 0"><b>Address</b>: Room B505, 55th Building, Beiyang Park Campus, Tianjin University, No.135 YaGuan Road, Tianjin (150001), China</div>
